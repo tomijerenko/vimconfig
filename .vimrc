@@ -1,15 +1,17 @@
+syntax enable
+
 set number relativenumber
 set cursorline cursorcolumn
+" Required for xfce4-terminal
 set t_Co=256
 
 hi CursorLine cterm=NONE ctermbg=darkgray ctermfg=NONE
 hi CursorColumn cterm=NONE ctermbg=darkgray ctermfg=NONE
-syntax enable
 
-" Delete word forward in insert mode 
+" Alt-D Delete word forward in insert mode 
 imap <ESC>d <C-o>dw
 
-" Ctrl-PgUp and Ctrl-PgDn
+" Ctrl-PgUp and Ctrl-PgDn switch buffer
 map <ESC>[5;5~ :bn<CR>
 map <ESC>[6;5~ :bp<CR>
 
