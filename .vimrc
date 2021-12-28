@@ -1,12 +1,12 @@
 syntax enable
 
 set number relativenumber
-set cursorline cursorcolumn
 " Required for xfce4-terminal
 set t_Co=256
 
-hi CursorLine cterm=NONE ctermbg=darkgray ctermfg=NONE
-hi CursorColumn cterm=NONE ctermbg=darkgray ctermfg=NONE
+" set cursorline cursorcolumn
+" hi CursorLine cterm=NONE ctermbg=darkgray ctermfg=NONE
+" hi CursorColumn cterm=NONE ctermbg=darkgray ctermfg=NONE
 
 " Alt-D Delete word forward in insert mode 
 imap <ESC>d <C-o>dw
