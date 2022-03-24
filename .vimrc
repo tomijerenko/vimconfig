@@ -31,3 +31,6 @@ imap <ESC>[1;5C <C-o>e
 
 " FZF
 nmap <C-P> :FZF<CR>
+
+" git-blame
+nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
