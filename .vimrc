@@ -3,7 +3,7 @@ syntax enable
 " For golang autoformat on save
 filetype plugin indent on
 
-set number relativenumber
+set number
 " Required for xfce4-terminal
 set t_Co=256
 
