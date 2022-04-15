@@ -5,4 +5,5 @@ git status
 git diff
 git add -A
 git commit -m "Backup"
+git status
 git push
